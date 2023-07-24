@@ -2,11 +2,19 @@
   font-family: sans-serif;
   font-size: 16px;
 }
-
+@media (min-width: 200px) {
+  body {
+    padding: 0 20px;
+  }
+}
 @media (min-width: 600px) {
   body {
     padding: 0 160px;
   }
+}
+
+body {
+  background-color: #e7d9ca;
 }
 
 .material-symbols-outlined {
@@ -18,15 +26,17 @@
 }
 
 a {
-  color: blue;
+  color: #000;
   text-decoration: none;
-  border: 1px solid blue;
+  border: 2px solid #000;
   border-radius: 4px;
   padding: 0.25rem 0.5rem;
+  font-weight: 600;
+  background-color: #ffc35c;
 }
 
 a.st-active {
-  background-color: silver;
+  background-color: #e05242;
 }
 
 header {
@@ -53,14 +63,20 @@ header {
 
 .dot {
   font-weight: 600;
-  color: blue;
+  color: #000;
 }
 
 table,
 th,
 td {
-  border: 1px solid black;
+  border: 2px solid black;
   border-collapse: collapse;
+  padding: 0.5rem;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 700px;
 }
 
 .none {
