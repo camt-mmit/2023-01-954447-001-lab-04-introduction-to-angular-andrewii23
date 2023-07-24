@@ -1,5 +1,10 @@
+@font-face {
+  font-family: PP mori;
+  src: url(./assets/ppmori.ttf);
+}
+
 :root {
-  font-family: sans-serif;
+  font-family: PP mori;
   font-size: 16px;
 }
 @media (min-width: 200px) {
